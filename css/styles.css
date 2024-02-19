@@ -1,0 +1,89 @@
+/*Author: Lisa Gee
+Date: 2/15/24
+File Name: styles.css
+*/
+
+
+/* Media query for mobile */
+@media screen and (min-width: 630px) {
+/* Style rules for mobile viewport.  Show mobile view and hide desktop view*/
+  .mobile {
+    display:block;
+    background-color: #000000;
+    padding: 2%;
+  }
+
+  h1 {
+    font-family: 'Emblema One', system-ui;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  img {
+    max-width: 10%;
+    display: block;
+    border-radius: 6px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    background-color: #000000;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: white;
+  }
+
+
+  .early-years {
+    background-color: #afa0cb;
+  }
+
+  .summary {
+    background-color: #afafaf;
+  }
+
+
+  /* Style rules for footer content */
+  footer {
+    text-align: center;
+    font-size: 1.25em;
+    background-color: #000000;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+**********************************************************************
+
+    /* Media Query for Tablet and desktop Viewports*/
+  /* @media screen and (min-width: 1921px) and (min-width: 630px) { */
+
+   /* Style rules for tablet and desktop viewport.  Hide mobile view and show tablet and desktop view*/
+   /* .tablet-desktop {
+    display: hide;
+  }
+
+
+  } */
+
+
+/* The heading should be centered but its not.
+The footer should be centered but its not.
+Why can't I fix the second pic?  It wasn't the picture type that was the problem.
+I can't get rid of the bullets in the nav even though I use the right CSS. It is centered for the iPad.  do I have the wrong media query?*
+The first half should be purple and the bottom have should be gray in mobile view, but its not./
